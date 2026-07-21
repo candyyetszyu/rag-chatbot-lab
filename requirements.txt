@@ -1,0 +1,16 @@
+# Core
+pydantic==2.10.5
+python-dotenv==1.0.0
+pyyaml==6.0.2
+
+# Embeddings & vector search
+sentence-transformers>=2.2.2
+faiss-cpu==1.11.0
+numpy>=1.26.0
+
+# LLM providers (all providers speak the OpenAI-compatible chat API)
+openai>=1.0.0
+
+# CLI
+rich==13.7.0
+questionary==2.0.1
